@@ -1,0 +1,26 @@
+{
+    "name": "xutl/coordtransform",
+    "description": "A common coordinate systems conversion module!",
+    "keywords": ["coordinate", "wgs84", "bd09", "gcj02", "transform"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "XuTL",
+            "email": "xutongle@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XuTL\\CoordTransform\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "XuTL\\CoordTransform\\Tests\\": "tests/"
+        }
+    }
+}
